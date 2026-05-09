@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "lucide-react": "^1.14.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^7.15.0",
     "route": "^0.2.5"
   },
   "scripts": {
@@ -14,6 +16,22 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "react-scripts": "latest",
+    "tailwindcss": "3",
+    "vite": "^7.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
